@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6fa22834-ba1c-4ca0-b851-f7e244f6ef42" name="lpan@CA-D1CGDZ1-D 2018-05-30 14:15:14" runUser="ORT\lpan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3808f4cb-6f5c-49dd-a6d3-bf8308ff60d7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="lpan_CA-D1CGDZ1-D 2018-05-30 14_15_14">
+      <DeploymentItem filename="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\DllTest\bin\Debug\DllTest.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-05-30T14:15:14.0064438-07:00" queuing="2018-05-30T14:15:14.0414578-07:00" start="2018-05-30T14:15:14.0474602-07:00" finish="2018-05-30T14:15:14.2795530-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <DebugTrace>No database unit testing section is defined in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\bin\Debug\UnitTestHelloWorld.DLL.config.
+</DebugTrace>
+    </Output>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DatabaseTest1" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="1d69ac50-d5f9-cf47-8292-9c96412221ed">
+      <Execution id="0fe8d665-d81c-4273-b9fa-17557d1fd959" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.DatabaseUnitTest1, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DatabaseTest1" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="cb10f468-1045-5427-6984-507247d3a757">
+      <Execution id="6c360006-75b7-4ed9-bde9-97e7eaf7a6a3" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="GetValue_Return" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="1be569b0-4c85-22bf-d7f8-f6fe522fb90c">
+      <Execution id="6b1d8eac-ff04-41fa-b670-652ec83a4048" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetValue_Return" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cb10f468-1045-5427-6984-507247d3a757" executionId="6c360006-75b7-4ed9-bde9-97e7eaf7a6a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1be569b0-4c85-22bf-d7f8-f6fe522fb90c" executionId="6b1d8eac-ff04-41fa-b670-652ec83a4048" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d69ac50-d5f9-cf47-8292-9c96412221ed" executionId="0fe8d665-d81c-4273-b9fa-17557d1fd959" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6c360006-75b7-4ed9-bde9-97e7eaf7a6a3" testId="cb10f468-1045-5427-6984-507247d3a757" testName="TestMethod1" computerName="CA-D1CGDZ1-D" startTime="2018-05-30T14:15:14.0504614-07:00" endTime="2018-05-30T14:15:14.2575442-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c360006-75b7-4ed9-bde9-97e7eaf7a6a3">
+      <Output>
+        <ErrorInfo>
+          <Message>An error occurred while database unit testing settings were being read from the configuration file.  Click the test project, open the Database Test Configuration dialog box from the Test menu, add the settings to the dialog box, and rebuild the project.</Message>
+          <StackTrace>   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.OpenProcessConfig()
+   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.DeployDatabaseProject()
+   at UnitTestHelloWorld.DatabaseSetup.InitializeAssembly(TestContext ctx) in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\DatabaseSetup.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6b1d8eac-ff04-41fa-b670-652ec83a4048" testId="1be569b0-4c85-22bf-d7f8-f6fe522fb90c" testName="GetValue_Return" computerName="CA-D1CGDZ1-D" startTime="2018-05-30T14:15:14.2595450-07:00" endTime="2018-05-30T14:15:14.2615458-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b1d8eac-ff04-41fa-b670-652ec83a4048">
+      <Output>
+        <ErrorInfo>
+          <Message>An error occurred while database unit testing settings were being read from the configuration file.  Click the test project, open the Database Test Configuration dialog box from the Test menu, add the settings to the dialog box, and rebuild the project.</Message>
+          <StackTrace>   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.OpenProcessConfig()
+   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.DeployDatabaseProject()
+   at UnitTestHelloWorld.DatabaseSetup.InitializeAssembly(TestContext ctx) in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\DatabaseSetup.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0fe8d665-d81c-4273-b9fa-17557d1fd959" testId="1d69ac50-d5f9-cf47-8292-9c96412221ed" testName="DatabaseTest1" computerName="CA-D1CGDZ1-D" startTime="2018-05-30T14:15:14.2635466-07:00" endTime="2018-05-30T14:15:14.2665478-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fe8d665-d81c-4273-b9fa-17557d1fd959">
+      <Output>
+        <ErrorInfo>
+          <Message>An error occurred while database unit testing settings were being read from the configuration file.  Click the test project, open the Database Test Configuration dialog box from the Test menu, add the settings to the dialog box, and rebuild the project.</Message>
+          <StackTrace>   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.OpenProcessConfig()
+   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.DeployDatabaseProject()
+   at UnitTestHelloWorld.DatabaseSetup.InitializeAssembly(TestContext ctx) in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\DatabaseSetup.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

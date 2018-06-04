@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e8c35c84-4940-4f91-8479-5f82b77cc88d" name="lpan@CA-D1CGDZ1-D 2018-06-04 10:20:24" runUser="ORT\lpan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3808f4cb-6f5c-49dd-a6d3-bf8308ff60d7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lpan_CA-D1CGDZ1-D 2018-06-04 10_20_24">
+      <DeploymentItem filename="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\DllTest\bin\Debug\DllTest.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-06-04T10:20:24.7323292-07:00" queuing="2018-06-04T10:20:25.4025972-07:00" start="2018-06-04T10:20:26.8381712-07:00" finish="2018-06-04T10:20:32.3073580-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Connect_Insert_Disconnect_FromDatabase" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="571b79eb-aeee-a4a5-0cff-274c15f5352b">
+      <Execution id="71b45ab6-d225-4869-bb1e-73e71b173052" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Connect_Insert_Disconnect_FromDatabase" />
+    </UnitTest>
+    <UnitTest name="GetValue_Return" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="1be569b0-4c85-22bf-d7f8-f6fe522fb90c">
+      <Execution id="5b720c57-934b-465e-b184-aa1383e6fb1b" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetValue_Return" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1be569b0-4c85-22bf-d7f8-f6fe522fb90c" executionId="5b720c57-934b-465e-b184-aa1383e6fb1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="571b79eb-aeee-a4a5-0cff-274c15f5352b" executionId="71b45ab6-d225-4869-bb1e-73e71b173052" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5b720c57-934b-465e-b184-aa1383e6fb1b" testId="1be569b0-4c85-22bf-d7f8-f6fe522fb90c" testName="GetValue_Return" computerName="CA-D1CGDZ1-D" duration="00:00:00.4783573" startTime="2018-06-04T10:20:27.5764664-07:00" endTime="2018-06-04T10:20:30.1705036-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b720c57-934b-465e-b184-aa1383e6fb1b">
+    </UnitTestResult>
+    <UnitTestResult executionId="71b45ab6-d225-4869-bb1e-73e71b173052" testId="571b79eb-aeee-a4a5-0cff-274c15f5352b" testName="Connect_Insert_Disconnect_FromDatabase" computerName="CA-D1CGDZ1-D" duration="00:00:00.3302593" startTime="2018-06-04T10:20:30.1975144-07:00" endTime="2018-06-04T10:20:30.5726644-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71b45ab6-d225-4869-bb1e-73e71b173052">
+    </UnitTestResult>
+  </Results>
+</TestRun>

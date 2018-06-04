@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="97f1bf39-b6ba-4e47-b59f-421305da17e6" name="lpan@CA-D1CGDZ1-D 2018-05-30 17:35:07" runUser="ORT\lpan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3808f4cb-6f5c-49dd-a6d3-bf8308ff60d7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="lpan_CA-D1CGDZ1-D 2018-05-30 17_35_07">
+      <DeploymentItem filename="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\DllTest\bin\Debug\DllTest.dll" />
+      <DeploymentItem filename="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\moq4-master\Samples\Lib\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-05-30T17:35:07.7265906-07:00" queuing="2018-05-30T17:35:10.4556818-07:00" start="2018-05-30T17:35:10.7988190-07:00" finish="2018-05-30T17:35:33.0066986-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CA-D1CGDZ1-D" outcome="Error" timestamp="2018-05-30T17:35:33.0056982-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ExcuteCmd_Return" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="0b848242-2a9f-0ab7-b270-a824cece3acb">
+      <Execution id="8aceb23a-123c-4d6b-9de6-fea812c68dc1" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExcuteCmd_Return" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0b848242-2a9f-0ab7-b270-a824cece3acb" executionId="8aceb23a-123c-4d6b-9de6-fea812c68dc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8aceb23a-123c-4d6b-9de6-fea812c68dc1" testId="0b848242-2a9f-0ab7-b270-a824cece3acb" testName="ExcuteCmd_Return" computerName="CA-D1CGDZ1-D" duration="00:00:21.9267672" startTime="2018-05-30T17:35:11.0799314-07:00" endTime="2018-05-30T17:35:33.0066986-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8aceb23a-123c-4d6b-9de6-fea812c68dc1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

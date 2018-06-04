@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4f0e1422-75c1-436b-a273-2900475c0f36" name="lpan@CA-D1CGDZ1-D 2018-05-30 17:34:35" runUser="ORT\lpan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3808f4cb-6f5c-49dd-a6d3-bf8308ff60d7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lpan_CA-D1CGDZ1-D 2018-05-30 17_34_35">
+      <DeploymentItem filename="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\DllTest\bin\Debug\DllTest.dll" />
+      <DeploymentItem filename="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\moq4-master\Samples\Lib\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-05-30T17:34:35.0345190-07:00" queuing="2018-05-30T17:34:35.1015458-07:00" start="2018-05-30T17:34:35.1085486-07:00" finish="2018-05-30T17:34:35.3896610-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ExcuteCmd_Return" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="0b848242-2a9f-0ab7-b270-a824cece3acb">
+      <Execution id="62a06d76-3b63-47d3-bcea-4560e5c4b6fc" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExcuteCmd_Return" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0b848242-2a9f-0ab7-b270-a824cece3acb" executionId="62a06d76-3b63-47d3-bcea-4560e5c4b6fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="62a06d76-3b63-47d3-bcea-4560e5c4b6fc" testId="0b848242-2a9f-0ab7-b270-a824cece3acb" testName="ExcuteCmd_Return" computerName="CA-D1CGDZ1-D" duration="00:00:00.0508574" startTime="2018-05-30T17:34:35.1465638-07:00" endTime="2018-05-30T17:34:35.3756554-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62a06d76-3b63-47d3-bcea-4560e5c4b6fc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTestHelloWorld.UnitTestHW.ExcuteCmd_Return threw exception: 
+System.InvalidOperationException: ExecuteNonQuery: Connection property has not been initialized.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DllTest.DllHW.ExcuteCmd() in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\DllTest\DllHW.cs:line 107
+   at UnitTestHelloWorld.UnitTestHW.ExcuteCmd_Return() in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\UnitTestHW.cs:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

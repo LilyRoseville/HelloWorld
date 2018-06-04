@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f5f79748-91c0-42da-8e67-5b9eb4dd3ccb" name="lpan@CA-D1CGDZ1-D 2018-05-30 13:55:12" runUser="ORT\lpan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3808f4cb-6f5c-49dd-a6d3-bf8308ff60d7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lpan_CA-D1CGDZ1-D 2018-05-30 13_55_12">
+      <DeploymentItem filename="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\DllTest\bin\Debug\DllTest.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-05-30T13:55:12.8231626-07:00" queuing="2018-05-30T13:55:12.8771842-07:00" start="2018-05-30T13:55:12.8981926-07:00" finish="2018-05-30T13:55:13.2073162-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <DebugTrace>No database unit testing section is defined in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\bin\Debug\UnitTestHelloWorld.DLL.config.
+</DebugTrace>
+    </Output>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DatabaseTest1" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="1d69ac50-d5f9-cf47-8292-9c96412221ed">
+      <Execution id="d7f90d70-8830-4a2d-884a-4fcb63daede7" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.DatabaseUnitTest1, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DatabaseTest1" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="cb10f468-1045-5427-6984-507247d3a757">
+      <Execution id="473a106e-ed9b-4d5d-a33b-32567a609482" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="GetValue_Return" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="1be569b0-4c85-22bf-d7f8-f6fe522fb90c">
+      <Execution id="d771caeb-a60b-4268-8b5e-ee3a67b5c61e" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetValue_Return" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1be569b0-4c85-22bf-d7f8-f6fe522fb90c" executionId="d771caeb-a60b-4268-8b5e-ee3a67b5c61e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d69ac50-d5f9-cf47-8292-9c96412221ed" executionId="d7f90d70-8830-4a2d-884a-4fcb63daede7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb10f468-1045-5427-6984-507247d3a757" executionId="473a106e-ed9b-4d5d-a33b-32567a609482" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d771caeb-a60b-4268-8b5e-ee3a67b5c61e" testId="1be569b0-4c85-22bf-d7f8-f6fe522fb90c" testName="GetValue_Return" computerName="CA-D1CGDZ1-D" startTime="2018-05-30T13:55:12.9111978-07:00" endTime="2018-05-30T13:55:13.1142790-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d771caeb-a60b-4268-8b5e-ee3a67b5c61e">
+      <Output>
+        <ErrorInfo>
+          <Message>An error occurred while database unit testing settings were being read from the configuration file.  Click the test project, open the Database Test Configuration dialog box from the Test menu, add the settings to the dialog box, and rebuild the project.</Message>
+          <StackTrace>   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.OpenProcessConfig()
+   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.DeployDatabaseProject()
+   at UnitTestHelloWorld.DatabaseSetup.InitializeAssembly(TestContext ctx) in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\DatabaseSetup.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7f90d70-8830-4a2d-884a-4fcb63daede7" testId="1d69ac50-d5f9-cf47-8292-9c96412221ed" testName="DatabaseTest1" computerName="CA-D1CGDZ1-D" startTime="2018-05-30T13:55:13.1162798-07:00" endTime="2018-05-30T13:55:13.1192810-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7f90d70-8830-4a2d-884a-4fcb63daede7">
+      <Output>
+        <ErrorInfo>
+          <Message>An error occurred while database unit testing settings were being read from the configuration file.  Click the test project, open the Database Test Configuration dialog box from the Test menu, add the settings to the dialog box, and rebuild the project.</Message>
+          <StackTrace>   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.OpenProcessConfig()
+   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.DeployDatabaseProject()
+   at UnitTestHelloWorld.DatabaseSetup.InitializeAssembly(TestContext ctx) in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\DatabaseSetup.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="473a106e-ed9b-4d5d-a33b-32567a609482" testId="cb10f468-1045-5427-6984-507247d3a757" testName="TestMethod1" computerName="CA-D1CGDZ1-D" startTime="2018-05-30T13:55:13.1202814-07:00" endTime="2018-05-30T13:55:13.1222822-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="473a106e-ed9b-4d5d-a33b-32567a609482">
+      <Output>
+        <ErrorInfo>
+          <Message>An error occurred while database unit testing settings were being read from the configuration file.  Click the test project, open the Database Test Configuration dialog box from the Test menu, add the settings to the dialog box, and rebuild the project.</Message>
+          <StackTrace>   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.OpenProcessConfig()
+   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.DeployDatabaseProject()
+   at UnitTestHelloWorld.DatabaseSetup.InitializeAssembly(TestContext ctx) in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\DatabaseSetup.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

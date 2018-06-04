@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6367b721-ef66-44a9-b6d1-a4f19be6f383" name="lpan@CA-D1CGDZ1-D 2018-05-30 17:24:19" runUser="ORT\lpan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3808f4cb-6f5c-49dd-a6d3-bf8308ff60d7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lpan_CA-D1CGDZ1-D 2018-05-30 17_24_19">
+      <DeploymentItem filename="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\DllTest\bin\Debug\DllTest.dll" />
+      <DeploymentItem filename="C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\moq4-master\Samples\Lib\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-05-30T17:24:19.9665902-07:00" queuing="2018-05-30T17:24:20.0056058-07:00" start="2018-05-30T17:24:20.0196114-07:00" finish="2018-05-30T17:24:20.2737130-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ConnectAndDisconnectFromDatabase" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="fa3d9ff0-bfe5-ab7e-e997-16b63e0b0fe8">
+      <Execution id="a8a581bd-e485-46e0-a00d-8f9ef0a965c8" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConnectAndDisconnectFromDatabase" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="cb10f468-1045-5427-6984-507247d3a757">
+      <Execution id="2ee56674-8e11-4107-aa7c-93ba2b30b928" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="GetValue_Return" storage="c:\users\lpan\documents\visual studio 2010\projects\helloworld\unittesthelloworld\bin\debug\unittesthelloworld.dll" id="1be569b0-4c85-22bf-d7f8-f6fe522fb90c">
+      <Execution id="93935e74-dc6e-4dd9-9f17-bc669f468d2f" />
+      <TestMethod codeBase="C:/Users/lpan/Documents/Visual Studio 2010/Projects/HelloWorld/UnitTestHelloWorld/bin/Debug/UnitTestHelloWorld.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestHelloWorld.UnitTestHW, UnitTestHelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetValue_Return" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1be569b0-4c85-22bf-d7f8-f6fe522fb90c" executionId="93935e74-dc6e-4dd9-9f17-bc669f468d2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb10f468-1045-5427-6984-507247d3a757" executionId="2ee56674-8e11-4107-aa7c-93ba2b30b928" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa3d9ff0-bfe5-ab7e-e997-16b63e0b0fe8" executionId="a8a581bd-e485-46e0-a00d-8f9ef0a965c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="93935e74-dc6e-4dd9-9f17-bc669f468d2f" testId="1be569b0-4c85-22bf-d7f8-f6fe522fb90c" testName="GetValue_Return" computerName="CA-D1CGDZ1-D" duration="00:00:00.0360295" startTime="2018-05-30T17:24:20.0216122-07:00" endTime="2018-05-30T17:24:20.2326966-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93935e74-dc6e-4dd9-9f17-bc669f468d2f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Hello World&gt;. Actual:&lt;222123789&gt;. </Message>
+          <StackTrace>   at UnitTestHelloWorld.UnitTestHW.GetValue_Return() in C:\Users\lpan\Documents\Visual Studio 2010\Projects\HelloWorld\UnitTestHelloWorld\UnitTestHW.cs:line 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ee56674-8e11-4107-aa7c-93ba2b30b928" testId="cb10f468-1045-5427-6984-507247d3a757" testName="TestMethod1" computerName="CA-D1CGDZ1-D" duration="00:00:00.0001289" startTime="2018-05-30T17:24:20.2346974-07:00" endTime="2018-05-30T17:24:20.2366982-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ee56674-8e11-4107-aa7c-93ba2b30b928">
+    </UnitTestResult>
+    <UnitTestResult executionId="a8a581bd-e485-46e0-a00d-8f9ef0a965c8" testId="fa3d9ff0-bfe5-ab7e-e997-16b63e0b0fe8" testName="ConnectAndDisconnectFromDatabase" computerName="CA-D1CGDZ1-D" duration="00:00:00.0184511" startTime="2018-05-30T17:24:20.2376986-07:00" endTime="2018-05-30T17:24:20.2627086-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8a581bd-e485-46e0-a00d-8f9ef0a965c8">
+    </UnitTestResult>
+  </Results>
+</TestRun>
